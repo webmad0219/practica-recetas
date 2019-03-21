@@ -1,0 +1,23 @@
+1.- Crea una app de react
+
+2.- Incluye el CSS de Bootstrap mediante CDN, y sustituye App.css por el provisto en el repo.
+
+3.- Crea un componente funcional Title que reciba el texto como propiedad y retorne un H1 con 
+el texto
+
+4.- Crea un componente funcional Subtitle que reciba el texto como propiedad y retorne un H2 con el texto
+
+5.- Crea un componente funcional Header que reciba el texto como propiedad y retorne una etiqueta HEADER 
+con un componente Title al que se envíe el texto
+
+6.- Randeriza el componente Header en App.js
+
+7.- Crea un componente de clase RecipesModule en cuyo estado figure el Array de recetas
+
+8.- El componente RecipesModule debe retornar un contenedor de Bootstrap que contenga un componente Subtitle 
+con el texto "Listado de recetas", una row de Bootstrap y, por cada receta cuya propiedad 'done' sea false, 
+un componente RecipeCard como el provisto en el repo.
+
+9.-  Configura el botón de cada receta para que al clickarlo, la receta pase a estado 'done' 
+y desaparezca del grid
+
