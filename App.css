@@ -1,0 +1,29 @@
+body {
+  font-weight: 100;
+}
+
+h1, h2, h3, h5 {
+  font-weight: 100
+}
+
+.App-header {
+  display: flex;
+  padding: 50px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(220,220,220)
+}
+.recipes-list .card {
+  margin-bottom: 20px;
+}
+.recipes-list img {
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+}
+h2 {
+  margin-bottom: 30px;
+}
